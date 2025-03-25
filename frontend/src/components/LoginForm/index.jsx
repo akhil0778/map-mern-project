@@ -2,7 +2,7 @@ import { Component } from 'react';
 import Cookies from 'js-cookie';
 import { Navigate } from 'react-router-dom';
 import { withRouter } from '../../withRouter'; 
-import API_BASE_URL from '../../config';
+import {API_BASE_URL} from '../../config';
 
 import './index.css';
 
